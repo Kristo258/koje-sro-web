@@ -128,6 +128,28 @@ nav {
   color: #fff;
 }
 
+.lang-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 1rem;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  border-left: 1px solid var(--glass-border);
+  padding-left: 1rem;
+}
+
+.lang-switch a {
+  font-size: 0.85rem;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+}
+
+.lang-switch a.active {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
 /* Main Content */
 main {
   flex: 1;
